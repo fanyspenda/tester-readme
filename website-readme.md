@@ -1,5 +1,10 @@
 # Belanjapart Website
 
+## How to run this project
+
+1. Run `npm install` to install all the libraries and dependencies. Run this only for the first time you run this project.
+2. Run `npm run dev` to run the project.
+
 ## Library Used
 
 1. @date-io/date-fns: 1.3.11,
@@ -93,7 +98,24 @@
 11. mocha: 8.0.1,
 12. prettier: 1.18.2
 
-## How to run this project
+## Environment Variables
 
-1. Run `npm install` to install all the libraries and dependencies. Run this only for the first time you run this project.
-2. Run `npm run dev` to run the project.
+-   NODE_ENV: "your developing environment"
+-   URL_API= "API url where your website data stored"
+-   VAPID_KEY: "key for firebase cloud messaging"
+-   URL_FILE: "API url where you store your file"
+-   URL_WEB_FRONT: "API url for website (not dashboard)"
+-   URL_COMMON: "API url where your website data stored"
+-   URL_SOCKET: "url socket for realtime events"
+-   URL_ADMIN: "API url for admin access"
+
+### Environment From Firebase Console Configs
+
+-   FIREBASE_API_KEY
+-   FIREBASE_AUTH_DOMAIN
+-   FIREBASE_DATABASE_URL
+-   FIREBASE_PROJECT_ID
+-   FIREBASE_STORAGE_BUCKET
+-   FIREBASE_SENDER_ID
+-   FIREBASE_APP_ID
+-   FIREBASE_MEASUREMENT_ID
